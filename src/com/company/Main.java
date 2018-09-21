@@ -20,5 +20,16 @@ public class Main {
 
         // long has a width of 64
         long myLongValue = 100L;
+
+        byte byteValue = 10;
+        short shortValue = 20;
+        int intValue = 50;
+
+        long longTotal = 50000L + 10L * (byteValue + shortValue + intValue);
+        System.out.println("longTotal " + longTotal);
     }
 }
+
+
+
+
